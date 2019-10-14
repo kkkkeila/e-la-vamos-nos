@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GirlRippa</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+<div id="interface">
+	
+	<header id="cabecalho">
+	<hgroup>
+	<h1>Girl Rippa</h1>
+	<h2>A melhor loja geek e nerd!</h2>
+ 	</hgroup>
+ 	<img id="icone" width="200px" height="200px" src="batgirl.jpg">
+
+	<nav id="menu">
+		<h1>Menu Principal</h1>
+		<ul type="square">
+			<li><a href="Girl.html">Home</a></li>
+			<li><a href= "Quem_somos.html"> Quem somos</a></li> 
+			<li>Camisas</li> 
+			<li>Livros</li>
+			<li><a href="Fale_conosco.html">Fale conosco</a></li>
+		</ul>
+	</nav>
+
+	</header>
+
+  <hgroup>	
+<h3>Home > &nbsp;Fale conosco</h3>
+<h1>Formulario de contato</h1>
+<h4>por Keila Alves e Nayara Aquino</h4>
+<h5>Atualizado em "só Deus sabe quando"</h5>
+</hgroup>
+ 
+<p>Para saber o status de seu pedido acesse sua conta em Minha Conta e entre nos detalhes clicando sobre o número do pedido que deseja acompanhar. Caso não encontre seu pedido, verifique os e-mails de confirmação do seu pedido e acesse os detalhes pelo link informado no email, caso nao exista, verifique se realmente fez pedido conosco, ou com outro site.</p>
+
+  <form method="post" id="fContato" action="mailto:keilaermrermr13@gmail.com">
+  <fieldset id="Usuário"><legend>Identificação do Usuário</legend> 
+  	<p><label for="cNome">Usuario:</label>  <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome ou Apelido"></p>
+  	<p><label for="cSenha">Senha:</label>  <input type="password" name="tSenha" id="cSenha" size="10" maxlength="10" placeholder="max. 10 digitos"></p> 
+  	<p><label for="cEmail">Email:</label>  <input type="email" name="tEmail" id="cEmail" size="25" maxlength="25">
+  	<fieldset><label for="" id="Sexo"><legend>Sexo:</legend> 
+  		<input type="radio" name="tSexo" id="cMasc"> <label for="cMasc">Masculino</label><br>  
+  		<input type="radio" name="tSexo" id="cFemin"> <label for="cFemin">Feminino </label><br>
+  		<input type="radio" name="tSexo" id="cNbin"> <label for="cNbin">Não binario</label></fieldset>
+  	<p>Data de Nascimento:<input type="date" name="tData" id="cData"> </p>
+  </fieldset>
+
+/* pode se tornar a area da compra */
+  <fieldset id="Endereço"><legend>Endereço do Usuário</legend>
+ 	<p><labe for="cRua">Rua:</label></p>
+ 	<input type="text" name="tRua" id="cRua" size="15" maxlength="80" placeholder="Rua,Av,Trav.">  
+ 	<p><labe for="cNum">Número:</label></p>
+ 	<input type="number" name="tNum" id="cNum" min="0" max="99999"> 
+  	<p><labe for="cEst">Estado:</label></p>
+ 	<select type="text" name="tEst" id="cEst">
+ 		<option value="ES">Espírito Santo</option>
+ 		<option value="RJ">Rio de Janeiro</option>
+ 		<option value="RN" selected="">Rio Grande do Norte</option>
+ 		<option value="RS">Rio Grande do Sul</option>
+ 		<option value="SC">Santa Catarina</option>
+ 		<option value="SP">São Paulo</option>
+ 		<option value="MG">Minas Gerais</option>
+ 		</select>
+   	<p><labe for="cCid">Cidade:</label></p>
+ 	<select type="text" name="tCid" id="cCid">	
+		<option>Natal</option>
+		<option>Mossoró</option>
+		<option>Parnamirim</option>
+		<option>São Gonçalo do Amarante	</option>
+		<option>Macaíba</option>
+		<option>Ceará-Mirim	</option>
+		<option>Caicó</option>
+		<option>Assu</option>
+		<option>Currais Novos</option>
+		<option>Santa Cruz</option>
+		<option>São José de Mipibu</option>
+		<option>Nova Cruz</option>
+		<option>Apodi</option>
+		<option>João Câmara</option>
+		<option>Canguaretama</option>
+		<option>Touros</option>
+		<option>Macau</option>
+		<option>Pau dos Ferros</option>
+		<option>Extremoz</option>
+		<option>Baraúna</option>
+		<option>Areia Branca</option>
+		<option>Nísia Floresta</option>
+		<option>Goianinha</option>
+		<option>Snato Ântonio</option>
+		<option>São Miguel</option>
+		<option>Monte Alegre</option> 
+ 		</select>
+
+  <fieldset id="Mensagem"><legend>Mensagem do Usuário</legend>
+  	Grau de Urgência: 
+  	Gostaria de adquirir uma Camisa quando disponível 
+  	Nome da Camisa:
+  	Cor: 
+  	Quantidade: 
+  	<fieldset>
+  	[BOTÃO ENVIAR]
+  </form>
+
+  <footer id="rodape">
+	<p>Copyright&copy;  2019 - by Keila A.
+		<a href="https://www.facebook.com/keila.alves.7127" target="blank">Facebook</a> | <a href="https://twitter.com/KKK_keila" target="blank">Twitter</a> 
+</footer>
+</div>
+</body>
+</html>
